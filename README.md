@@ -1,17 +1,16 @@
 # Frontend coding challenge
 
-To help last-minute booker, we want to build a new microsite, with only one page to list breather spaces in new-york available tomorrow.
+To help last-minute bookers, we want to build a new microsite, with only one page to list breather spaces in New York City available tomorrow.
 
 ## Requirements
 
 * For each space we want to be able to see at least:
   * the location name
   * the price for one hour.
-* The microsite should be deployed, ([heroku](https://www.heroku.com/) provide an easy deployment experience)
+* Bonus: We want to be able to sort and/or filter locations.
+* The microsite should be deployed, ([heroku](https://www.heroku.com/) or [now](https://zeit.co/now) provides an easy deployment experience)
 * You can use any technology you want. At breather, we are javascript fans and we use intensively React and nodejs.
 * The challenge should be submitted as a pull-request against this repository.
-
-Bonus: We want to be able to sort and/or filter locations.
 
 ## API specification
 
