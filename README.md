@@ -23,6 +23,7 @@ New york city id  is `8jLq7Yxb3R`
 ### Authentification
 
 Every request you made to the API should be authenticated. For this, you need to provide an API key in the `x-api-key` header.
+You can use this api key: `gMRjSiTpyMtPNlpYCPz3dK3YGpJGD4ed`. 
 
 ### Endpoints
 
