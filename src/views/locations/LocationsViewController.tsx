@@ -7,8 +7,7 @@ import * as AppActionsMock from "../../actions/api/appActionsMock";
 import LocationsList from "../../components/lists/locationList";
 
 export interface LocationsVCState {
-    locations: ILocationResponse.ILocationResponse[],
-    sortBy: string,
+    locations: ILocationResponse.ILocationResponse[]
 }
 
 const cities = [
@@ -29,8 +28,7 @@ class LocationsViewController extends React.Component <any, LocationsVCState> {
         super(props);
 
         this.state = {
-            locations: [],
-            sortBy: "name-asc"
+            locations: []
         }
 
         this.getLocations = this.getLocations.bind(this);
