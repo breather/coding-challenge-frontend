@@ -1,0 +1,278 @@
+.body {
+  overflow: hidden !important;
+}
+
+.locations-container {
+  width: 100%;
+  height: 100%;
+}
+
+.navigation-header {
+  background: #ffffff;
+  user-select: none;
+  position: relative;
+  z-index: 600;
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+  height: 3.5rem;
+  vertical-align: middle;
+}
+
+.navigation-container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  height: 100%;
+}
+
+.navigation-nav {
+  height: 100%;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.locations-header {
+  position: relative;
+  width: 100%;
+  height: 4.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; 
+  border-bottom: 1px solid #eeeeee;
+  vertical-align: middle;
+}
+
+.locations-header-table {
+  display: table;
+  width: 100%;
+  height: 3.5rem;
+}
+
+.locations-header-tr {
+  display: table-row;
+  width: 100%;
+}
+
+.locations-header-td {
+  display: table-cell;
+  text-align: left;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.cell-medium {
+  width: 35%;
+}
+
+.cell-small {
+  width: 15%;
+}
+
+.border-right {
+  border-right: 1px solid #eeeeee;
+}
+
+.search-filter {
+  display: flex;
+  flex: 1;
+  position: relative;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
+.search-filter > svg {
+  margin-right: 0.75rem;
+  fill: #8A8F99;
+  flex-shrink: 0;
+}
+
+.search-filter-input-label {
+  color: #8A8F99;
+  font-size: 0.875rem;
+  display: flex;cursor: pointer;
+  position: relative;
+  flex: 1;
+  text-overflow: ellipsis;
+  user-select: none;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+input {
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+  border: 0px;
+  color: #17181A;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  outline: none;
+}
+
+.locations-content {
+  height: calc(100vh - 7.5rem);
+  width: 100%;
+}
+
+.locations-content-table {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.locations-content-tr {
+  height: 100%;
+  width: 100%;
+  display: table-row;
+}
+
+.locations-content-td {
+  height: 100%;
+  width: 50%;
+  display: table-cell;
+}
+
+.locations-list-header {
+  color: #8A8F99;
+  padding: .875rem 1.5rem;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.locations-list-count {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  color: #8A8F99;
+  height: auto;
+}
+
+.locations-list-sort-wrapper {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  background-color: #EFF0F2;
+  color: #8A8F99;
+}
+
+.locations-list-sort-label {
+  padding: 0.8rem 0.25rem 0.45rem 0.5rem;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: #17181A;
+  margin-right: 0.25rem;
+}
+
+.locations-list-sort-select {
+  display: flex;
+  margin-top: 0.8rem;
+}
+
+.locations-list-scrollable {
+  height: 93%;
+  overflow-y: auto;
+  padding: 0.5rem;
+}
+
+.location-list-item {
+  background-color: #ffffff;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.location-list-item:hover {
+  background-color: #eeeeee;
+}
+
+.location-list-item-label {
+  padding-top: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.location-list-item-img {
+  border-radius: 0.2rem;
+  width: 288px;
+  height: 192px;
+}
+
+.location-list-item-rating {
+  padding-left: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.location-list-item-price {
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.location-list-item-rating-icon {
+  fill: #4a90e2;
+}
+
+.location-list-item-rating-average {
+  color: #4a90e2;
+}
+
+.location-list-item-rating-count {
+  color: #c4c4c4;
+  font-size: 0.8rem;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  display: table-row;
+  width: 100%;
+  height: 100%;
+}
+
+.cell-small {
+  display: table-cell;
+  width: 15%;
+  height: 100%;
+}
+
+.cell-medium {
+  display: table-cell;
+  width: 25%;
+  height: 100%;
+}
+
+.cell-large {
+  display: table-cell;
+  width: 45%;
+  height: 100%;
+}
+
+.location-list-item-capacity {
+  padding-top: 0.3rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.select {
+  width: 200px;
+}
