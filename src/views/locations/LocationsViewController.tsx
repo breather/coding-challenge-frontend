@@ -22,13 +22,6 @@ const cities = [
     { label: "Montreal", value: "x7bPMpzIvM", key: "x7bPMpzIvM" },
   ];
 
-  const sortOptions = [
-      { label: "Name: ascending", value: "name-asc", key: "name-asc" },
-      { label: "Name: descending", value: "name-desc", key: "name-desc" },
-      { label: "Price: low-high", value: "price-low", key: "price-low" },
-      { label: "Price: hight-low", value: "price-high", key: "price-high" },
-  ];
-
 class LocationsViewController extends React.Component <any, LocationsVCState> {
     private appActionsMock = new AppActionsMock.AppActionsMock();
 
@@ -105,18 +98,6 @@ class LocationsViewController extends React.Component <any, LocationsVCState> {
         return (
             <div className="locations-list-header">
                 <div className="locations-list-count">{this.state.locations.length} spaces</div>
-                <div className="locations-list-sort-wrapper">
-                <div className="locations-list-sort-label">Sort by</div>
-                <div className="select container">
-                <div className="row">
-                <div className="col-md-4"></div>
-                <div className="col-md-4">
-                    <Select options={ sortOptions } className="select"/>
-                </div>
-                <div className="col-md-4"></div>
-                </div>
-            </div> 
-                </div>
             </div> 
         );
     }
